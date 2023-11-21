@@ -1,0 +1,210 @@
+
+/*ШРИФТИ*/
+	@font-face {
+  font-family: 'Jeko Regular';
+  src: url('./fonts/Jeko Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jeko Light';
+  src: url('./fonts/Jeko Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jeko Bold';
+  src: url('./fonts/Jeko Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jeko Black';
+  src: url('./fonts/Jeko Black.ttf') format('truetype');
+}
+	*, body{
+		padding: 0;
+		margin: 0;
+		font-family: Jeko Light;
+	}
+	/*СТИЛІ ДЛЯ ДЕСКТОПІВ*/
+	@media only screen and (min-width: 1024px) {
+	.main{
+		display: flex;
+	}
+	.left{
+		padding: 10vh 4.435vw;
+		background-color: #81D3D9;
+		width: 37.540vw;
+		display: flex;
+		flex-direction: column;
+	}
+	.left h2{
+		margin-top: 5vh;
+	}
+	.left p{
+		margin-top: 5vh;
+		font-size: 1.4em;
+	}
+	
+	.left h1{
+		margin-top: 10vh;
+	}
+	.contacts p{
+		margin-top: 0;
+	}
+	.left img{
+		width: 31.855vw;
+
+	}
+
+	.right{
+	background-color: white;
+	width: 62.6vw;
+	display: block;
+	padding-left: 3.790vw;
+	padding-right: 11.290vw;
+	padding-top: 10vh;
+
+	}
+	.right h1{
+		font-family: 'Jeko Black';
+	}
+	.right h2{
+		margin-top: 5vh;
+	}
+	.right p{
+		margin-top: 5vh;
+		font-size: 1.4em;
+	}
+	.footer{
+		background-color: #84F6FF;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 7vh 18vw;
+	}
+	.footer img{
+		width: 10vw;
+	}
+}
+/*СТИЛІ ДЛЯ МОБІЛЬНИХ ПРИСТРОЇВ*/
+	@media only screen and (max-width: 767px) {
+  .main{
+		display: flex;
+		min-height: 86vh;
+	}
+	.left{
+		padding: 2.5vh 4.435vw;
+		background-color: #81D3D9;
+		width: 37.540vw;
+		display: flex;
+		flex-direction: column;
+	}
+	.left h2{
+		margin-top: 2.5vh;
+	}
+	.left p{
+		margin-top: 2.5vh;
+		font-size: 1.4em;
+	}
+	
+	.left h1{
+		margin-top: 2.5vh;
+	}
+	.contacts p{
+		margin-top: 0;
+	}
+	.left img{
+		width: 31.855vw;
+
+	}
+
+	.right{
+	background-color: white;
+	width: 62.6vw;
+	display: block;
+	padding-left: 3.790vw;
+	padding-right: 11.290vw;
+	padding-top: 5vh;
+
+	}
+	.right h1{
+		font-family: 'Jeko Black';
+	}
+	.right h2{
+		margin-top: 2.5vh;
+	}
+	.right p{
+		margin-top: 2.5vh;
+		font-size: 1.4em;
+	}
+	.footer{
+		background-color: #84F6FF;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0vh 18vw;
+		height: 14vh;
+	}
+	.footer img{
+		width: 10vw;
+	}
+}
+/*СТИЛІ ДЛЯ ПЛАНШЕТА*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .main{
+		display: flex;
+		min-height: 86vh;
+	}
+	.left{
+		padding: 2.5vh 4.435vw;
+		background-color: #81D3D9;
+		width: 37.540vw;
+		display: flex;
+		flex-direction: column;
+	}
+	.left h2{
+		margin-top: 2.5vh;
+	}
+	.left p{
+		margin-top: 2.5vh;
+		font-size: 1.4em;
+	}
+	
+	.left h1{
+		margin-top: 2.5vh;
+	}
+	.contacts p{
+		margin-top: 0;
+	}
+	.left img{
+		width: 31.855vw;
+
+	}
+
+	.right{
+	background-color: white;
+	width: 62.6vw;
+	display: block;
+	padding-left: 3.790vw;
+	padding-right: 11.290vw;
+	padding-top: 5vh;
+
+	}
+	.right h1{
+		font-family: 'Jeko Black';
+	}
+	.right h2{
+		margin-top: 2.5vh;
+	}
+	.right p{
+		margin-top: 2.5vh;
+		font-size: 1.4em;
+	}
+	.footer{
+		background-color: #84F6FF;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0vh 18vw;
+		height: 14vh;
+	}
+	.footer img{
+		width: 10vw;
+	}
+}
